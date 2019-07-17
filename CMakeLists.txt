@@ -17,7 +17,7 @@ endif(UNIX)
 
 configure_file(
     ${PROJECT_SOURCE_DIR}/CMakePlatformInfo.h.in
-    ${PROJECT_BINARY_DIR}/CMakePlatformInfo.h
+    ${PROJECT_SOURCE_DIR}/CMakePlatformInfo.h
 )
 
 add_executable(${PROJECT_NAME} ${source})
